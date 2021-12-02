@@ -1,24 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+
 body
 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 15px;
-    margin-right: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins';
 }
-.contours
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.22);
-    border-radius: 15px;
-    padding: 20px;
-    width: 50%;
-}
-
 form
 {
     display: flex;
@@ -30,17 +18,71 @@ form
     width: 50%;
 }
 
-.contour
-{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.22);
-    border-radius: 15px;
-    padding: 20px;
-    width: 75%;
-    margin: 20px;
+/* nav bar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.navbar {
+    background: white;
+    padding: 1em;
+}
+
+.navbar .logo {
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        font-size: 1.2em;
+}
+
+.navbar .container {
+        display: grid;
+        grid-template-columns: 180px auto;
+        justify-content: space-between;
+}
+
+.navbar nav {
+	display: flex;
+	justify-content: space-between;
+	background: none;
+	position: unset;
+	height: auto;
+	width: 100%; 
+	padding: 0;
+	
+}
+
+.navbar nav ul {
+		display: flex;
+}
+
+.navbar nav a {
+		color: black;
+		font-size: 1em;
+		padding: .1em 1em;
+}
+
+.navbar nav ul.primary-nav {
+		margin: 0;
+}
+
+.navbar nav li.current a {
+		font-weight: bold;
+	}
+
+.navbar nav li.go-premium-cta a {
+		color: var(--primary-color);
+		border: 3px solid var(--primary-color);
+		font-weight: bold;
+		border-radius: 5em;
+		margin-top: -.2em;
 }
 
 .information
@@ -48,7 +90,8 @@ form
     margin: 5px;
 }
 
-.card
-{
-    margin: 10px;
+.form {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
 }
