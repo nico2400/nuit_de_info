@@ -6,4 +6,4 @@
 ### Objectif :
 
 
-#### Membres : Nicolas Mathieu, Damien Sudre, Benoit Amouroux, Kelian Sebaici, Hugo Flinois, Maxime Dourlent 
+#### Membres : Nicolas Mathieu, Damien Sudre, Benoit Amouroux, Kelian Sebaici, Hugo Flinois, Maxime Dourlent
