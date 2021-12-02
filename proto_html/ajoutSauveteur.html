@@ -7,38 +7,60 @@
     <link rel="stylesheet" href="formdarkstyle.css">
     <script src="script.js"></script>
 </head>
-<body>
+	<body>
 
-<header>
-    <nav>
+	<header>
+		<div class="navbar">
+				<div class="container">
+					<a class="logo" href="#">Logo</a>
 
-    </nav>
-</header>
+					<nav>
+						<ul class="primary-nav">
+							<li class="current"><a href="#">Sauveteur</a></li>
+							<li><a href="#">Sortie en mer</a></li>
+							<li><a href="#">Stations</a></li>
+						</ul>
 
-<!-- date de sauvetage, nombre de personnes sauvés  -->
+						<ul class="secondary-nav">
+							<li><a href="#">Services du port</a></li>
+							<li class="go-premium-cta"><a href="#">Moyens maritimes</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+	</header>
 
-<h2>Formulaire de renseignement de sauveteurs</h2>
-<form action="" method="get" class="form-ajout">
-    <div class="information">
-        <label>Date de naissance: </label>
-        <input type="text" name="dateNaissance">
-    </div>
+	<!-- date de sauvetage, nombre de personnes sauvés  -->
+	
+	<div class="form">
 
-    <div class="information">
-        <label>Date de décès: </label>
-        <input type="text" name="dateDeces">
-    </div>
+		<h2>Formulaire de renseignement de sauveteurs</h2>
+		<form action="" method="get" class="form-ajout">
+			<div class="information">
+				<label>Date de naissance: </label>
+				<input type="text" name="dateNaissance">
+			</div>
 
-    <div class="information">
-        <label>Prénom: </label>
-        <input type="text" name="prenom">
-    </div>
+			<div class="information">
+				<label>Date de décès: </label>
+				<input type="text" name="dateDeces">
+			</div>
 
-    <div class="information">
-        <label>Nom: </label>
-        <input type="text" name="nom">
-    </div>
-</form>
+			<div class="information">
+				<label>Prénom: </label>
+				<input type="text" name="prenom">
+			</div>
 
-</body>
+			<div class="information">
+				<label>Nom: </label>
+				<input type="text" name="nom">
+			</div>
+
+			<div class="information">
+				<input type="submit" value="Enregistrer">
+			</div>
+		</form>
+	</div>
+
+	</body>
 </html>
