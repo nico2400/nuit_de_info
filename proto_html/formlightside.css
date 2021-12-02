@@ -6,17 +6,18 @@ body{
     margin-right: 15px;
     padding-left: 15px;
     padding-right: 15px;
-    background-color: #dbe7f1;
+    background-color: #CDE6F5;
+    color: #554635;
 }
 h2{
-    color: #3a80bf;
+    color: #554640;
 }
 form
 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(40, 68, 90, 0.400);
+    background-color: rgba(40, 68, 90, 0.250);
     border-radius: 15px;
     padding: 20px;
     width: 50%;
