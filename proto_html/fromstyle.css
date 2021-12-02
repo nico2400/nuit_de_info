@@ -4,6 +4,9 @@ body
     margin-right: 15px;
     padding-left: 15px;
     padding-right: 15px;
-    background-color: #0a1027;
+    background-color: #111830;
     color:#b5d0cf;
+}
+h2{
+    color: #e4e5e7;
 }
