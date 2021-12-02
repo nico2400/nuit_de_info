@@ -9,8 +9,8 @@
 #### Membres : Nicolas Mathieu, Damien Sudre, Benoit Amouroux, Kelian Sebaici, Hugo Flinois, Maxime Dourlent
 
 #### Outils utilisés :
--VSCode
+- [VSCode](https://code.visualstudio.com/Download)
 
--MySQL
+- MySQL
 
--PhpStorm
+- [PhpStorm](https://www.jetbrains.com/fr-fr/phpstorm/download/#section=windows)
