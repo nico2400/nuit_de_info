@@ -3,7 +3,9 @@
 
 ### Equipe Code saves the Queen
 
-### Objectif : réaliser une base de données à lier au site web de l'associaiton SNSM, qui recensera les sauvetages effectués en mer. Elle contiendra notamment les noms des bateaux, les noms des sauveteurs, et les noms des personnes sauvées.
+### Objectif : 
+
+- Réaliser une base de données à lier au site web de l'associaiton SNSM, qui recensera les sauvetages effectués en mer. Elle contiendra notamment les noms des bateaux, les noms des sauveteurs, et les noms des personnes sauvées.
 
 
 #### Membres : Nicolas Mathieu, Damien Sudre, Benoit Amouroux, Kelian Sebaici, Hugo Flinois, Maxime Dourlent
