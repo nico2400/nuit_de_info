@@ -1,24 +1,10 @@
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 15px;
-    margin-right: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
+body
+{
     background-color: #CDE6F5;
     color: #554635;
 }
-h2{
-    color: #554640;
-}
-form
+
+h2
 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgba(40, 68, 90, 0.250);
-    border-radius: 15px;
-    padding: 20px;
-    width: 50%;
+    color: #554640;
 }
