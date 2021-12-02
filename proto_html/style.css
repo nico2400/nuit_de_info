@@ -8,6 +8,17 @@ body
     padding-left: 15px;
     padding-right: 15px;
 }
+.contours
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.22);
+    border-radius: 15px;
+    padding: 20px;
+    width: 50%;
+}
+
 form
 {
     display: flex;
@@ -19,13 +30,25 @@ form
     width: 50%;
 }
 
+.contour
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.22);
+    border-radius: 15px;
+    padding: 20px;
+    width: 75%;
+    margin: 20px;
+}
+
 .information
 {
     margin: 5px;
 }
 
-.form-ajout
+.card
 {
-    /* background-image: url("img/img1.png"); */
-
+    margin: 10px;
 }
