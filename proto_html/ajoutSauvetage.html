@@ -10,36 +10,50 @@
 <body>
 
 <header>
-    <nav>
+    <div class="navbar">
+            <div class="container">
+                <a class="logo" href="#">Logo</a>
 
-    </nav>
+                <nav>
+                    <ul class="primary-nav">
+                        <li class="current"><a href="#">Sauveteur</a></li>
+                        <li><a href="#">Sortie en mer</a></li>
+                        <li><a href="#">Stations</a></li>
+                    </ul>
+
+                    <ul class="secondary-nav">
+                        <li><a href="#">Services du port</a></li>
+                        <li class="go-premium-cta"><a href="#">Moyens maritimes</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
 </header>
 <!-- date de sauvetage, nombre de personnes sauvés  -->
+	<div class="form">
+		<h2>Formulaire de renseignement de sauvetages</h2>
+		<form action="" method="get" class="form-ajout">
+			<div class="information">
+				<label>Date: </label>
+				<input type="text" name="date" required>
+			</div>
 
-<h2>Formulaire de renseignement de sauvetages</h2>
+			<div class="information">
+				<label>Nombre de sauvés: </label>
+				<input type="text" name="nbrSauves" required>
+			</div>
 
-<form action="" method="get" class="form-ajout">
-    <div class="information">
-        <label>Date: </label>
-        <input type="text" name="date" required>
-    </div>
+			<div class="information">
+				<label>Nom du bâteau: </label>
+				<input type="text" name="bateau" required>
+			</div>
 
-    <div class="information">
-        <label>Nombre de sauvés: </label>
-        <input type="text" name="nbrSauves" required>
-    </div>
-
-    <div class="information">
-        <label>Nom du bâteau: </label>
-        <input type="text" name="bateau" required>
-    </div>
-
-    <div class="information">
-        <input type="submit" value="Enregistrer">
-    </div>
+			<div class="information">
+				<input type="submit" value="Enregistrer">
+			</div>
 
 
-</form>
-
+		</form>
+	</div>
 </body>
 </html>
