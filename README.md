@@ -7,3 +7,8 @@
 
 
 #### Membres : Nicolas Mathieu, Damien Sudre, Benoit Amouroux, Kelian Sebaici, Hugo Flinois, Maxime Dourlent
+
+#### Outils utilisés :
+-VSCode
+-MySQL
+-PhpStorm
