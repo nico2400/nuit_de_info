@@ -38,7 +38,6 @@ CREATE TABLE ActionSauvetages(
     nomSauveteur VARCHAR(30),
     annee VARCHAR(4),
     descriptionAction VARCHAR(10000),
-    CONSTRAINT pk_actionsauvetages PRIMARY KEY (idActionSauvetage),
     CONSTRAINT fk_actionsauvetages_nomsauveteur FOREIGN KEY (nomSauveteur) REFERENCES Sauveteurs (nomSauveteur)
 );
 
