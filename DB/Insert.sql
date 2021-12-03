@@ -20,4 +20,3 @@ INSERT INTO Sauveteurs VALUES ("","Jacques Joseph Bommelaer","","1838","1908","N
 INSERT INTO Decorations VALUES("","Jacques Joseph Bommelaer","",1891,"Chevalier de la Légion d'Honneur");
 INSERT INTO Decorations VALUES("","Jacques Joseph Bommelaer","",null,"Médaille Or annuelle de la Société des sauveteurs du Nord");
 INSERT INTO Decorations VALUES("","Jacques Joseph Bommelaer","",12/06/1892,"Grand diplôme d'Honneur");
->>>>>>> Stashed changes
