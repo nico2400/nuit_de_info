@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Titre de la page</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="formlightside.css">
+    <link rel="stylesheet" href="formdarkstyle.css">
     <script src="script.js"></script>
 </head>
 <body>
@@ -24,6 +24,8 @@
                     <ul class="secondary-nav">
                         <li><a href="#">Services du port</a></li>
                         <li class="go-premium-cta"><a href="#">Moyens maritimes</a></li>
+                        <button onclick="changeStylelight()">Light mode</button>
+                        <button onclick="changeStyledark()">Dark mode</button>
                     </ul>
                 </nav>
             </div>
@@ -50,10 +52,13 @@
 
 			<div class="information">
 				<input type="submit" value="Enregistrer">
-			</div>
+
+
+            </div>
 
 
 		</form>
+        <script text="text/javascript" src="changerstyle.js"></script>
 	</div>
 </body>
 </html>

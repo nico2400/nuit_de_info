@@ -7,60 +7,63 @@
     <link rel="stylesheet" href="formdarkstyle.css">
     <script src="script.js"></script>
 </head>
-	<body>
+<body>
 
-	<header>
-		<div class="navbar">
-				<div class="container">
-					<a class="logo" href="#">Logo</a>
+<header>
+    <div class="navbar">
+            <div class="container">
+                <a class="logo" href="#">Logo</a>
 
-					<nav>
-						<ul class="primary-nav">
-							<li class="current"><a href="#">Sauveteur</a></li>
-							<li><a href="#">Sortie en mer</a></li>
-							<li><a href="#">Stations</a></li>
-						</ul>
+                <nav>
+                    <ul class="primary-nav">
+                        <li class="current"><a href="#">Sauveteur</a></li>
+                        <li><a href="#">Sortie en mer</a></li>
+                        <li><a href="#">Stations</a></li>
+                    </ul>
 
-						<ul class="secondary-nav">
-							<li><a href="#">Services du port</a></li>
-							<li class="go-premium-cta"><a href="#">Moyens maritimes</a></li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-	</header>
-
-	<!-- date de sauvetage, nombre de personnes sauvés  -->
-	
+                    <ul class="secondary-nav">
+                        <li><a href="#">Services du port</a></li>
+                        <li class="go-premium-cta"><a href="#">Moyens maritimes</a></li>
+                        <button onclick="changeStylelight()">Light mode</button>
+                        <button onclick="changeStyledark()">Dark mode</button>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+</header>
+<!-- date de sauvetage, nombre de personnes sauvés  -->
 	<div class="form">
-
-		<h2>Formulaire de renseignement de sauveteurs</h2>
+		<h2>Formulaire de renseignement de sauvetages</h2>
 		<form action="" method="get" class="form-ajout">
 			<div class="information">
 				<label>Date de naissance: </label>
-				<input type="text" name="dateNaissance">
+				<input type="text" name="dateNaissance" required>
 			</div>
 
 			<div class="information">
 				<label>Date de décès: </label>
-				<input type="text" name="dateDeces">
+				<input type="text" name="dateDeces" required>
 			</div>
 
 			<div class="information">
 				<label>Prénom: </label>
-				<input type="text" name="prenom">
+				<input type="text" name="prenom" required>
 			</div>
 
-			<div class="information">
+            <div class="information">
 				<label>Nom: </label>
-				<input type="text" name="nom">
+				<input type="text" name="nom" required>
 			</div>
 
 			<div class="information">
 				<input type="submit" value="Enregistrer">
-			</div>
-		</form>
-	</div>
 
-	</body>
+
+            </div>
+
+
+		</form>
+        <script text="text/javascript" src="changerstyle.js"></script>
+	</div>
+</body>
 </html>
