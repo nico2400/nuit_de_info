@@ -52,6 +52,22 @@ form
     justify-content: center;
 }
 
+.infos
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.contour
+{
+    display: flex;
+    align-items: center;
+}
+.infos img
+{
+    border-radius: 10px;
+}
+
 .card
 {
     margin: 10px;
