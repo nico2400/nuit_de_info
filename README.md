@@ -26,8 +26,7 @@
 
 #### Outils utilisés :
 - [VSCode](https://code.visualstudio.com/Download)
-
 - MySQL
-
 - [PhpStorm](https://www.jetbrains.com/fr-fr/phpstorm/download/#section=windows)
 - Nos cerveaux fatigués
+- Photoshop
